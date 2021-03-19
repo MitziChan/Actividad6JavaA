@@ -26,6 +26,9 @@ public class resultado extends SimpleTagSupport {
     
             getJspBody().invoke(nombre);
         getJspContext().getOut().println("Yo soy " + nombre.toString()+ " y el día de hoy es 18 de marzo 2021");
+        
+        getJspContext().getOut().println("La hora es 11:29 pm");
+        
         JspFragment f = getJspBody(); 
         
     }
